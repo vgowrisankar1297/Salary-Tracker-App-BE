@@ -21,7 +21,7 @@ COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8080
 
 # Environment variables defaults (can be overridden at runtime)
-ENV SPRING_DATA_MONGODB_URI=mongodb://admin:Gowri%401297@13.201.174.140:27017/salary_tracker_db?authSource=admin
+ENV SPRING_DATA_MONGODB_URI=mongodb://salary-tracker:salary-tracker%40123@15.207.108.238:27017/?authSource=admin
 ENV PORT=8080
 
 # Run the spring boot application
