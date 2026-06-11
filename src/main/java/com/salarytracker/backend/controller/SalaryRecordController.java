@@ -12,8 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/salaries")
-@CrossOrigin("*")     
+@RequestMapping("/api/salaries")     
 public class SalaryRecordController {
 
     private final SalaryRecordService service;
