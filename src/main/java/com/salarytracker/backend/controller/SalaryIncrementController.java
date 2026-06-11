@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/increments")
-@CrossOrigin("*")     
+@RequestMapping("/api/increments")  
 public class SalaryIncrementController {
 
     private final SalaryIncrementService service;
