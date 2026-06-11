@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/dashboard")
+@CrossOrigin("*")
 public class DashboardController {
 
     private final DashboardService service;
